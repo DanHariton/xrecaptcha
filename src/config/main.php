@@ -2,7 +2,7 @@
 
 return [
     'components' => [
-        'recaptchaSettings' => [
+        \Xaver\components\RecaptchaSettings::class => [
             'class' => 'application.components.RecaptchaSettings',
         ]
     ],

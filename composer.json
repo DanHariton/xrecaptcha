@@ -4,13 +4,13 @@
   "type": "yii-extension",
   "require": {
     "php": ">=7.4",
-    "yiisoft/yii": "^1.1",
+    "yiisoft/yii": "1.1.25",
     "google/recaptcha": "^1.2",
     "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
-      "DanHariton\\xRecapthca\\": ""
+      "DanHariton\\xRecapthca\\": "src/"
     }
   },
   "minimum-stability": "dev",
